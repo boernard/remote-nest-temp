@@ -1,0 +1,70 @@
+html {
+  height: 100%;
+  font-family: DIN Alternate, Cabin, sans-serif;
+  color: #372D24;
+  -webkit-text-size-adjust: none; /* for iOS Safari */
+  text-size-adjust: none; /* for other mobile browsers */
+}
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url(http://www.remote-nest.com/assets/din_alternate_bold.ttf) format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+div {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-cropper {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+a {
+  color: #372D24;
+}
+
+a:visited {
+  color: #372D24;
+}
+
+#links {
+  margin-top: 40px;
+}
+
+#pic {
+  display: inline;
+  margin: 0 auto;
+  margin-top: -25%;
+  width: auto;
+}
